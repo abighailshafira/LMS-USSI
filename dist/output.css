@@ -555,8 +555,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 @media (min-width: 640px) {
@@ -583,9 +583,9 @@ video {
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1320px) {
   .container {
-    max-width: 1536px;
+    max-width: 1320px;
   }
 }
 
@@ -655,16 +655,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-12 {
@@ -741,12 +741,12 @@ video {
   max-width: fit-content;
 }
 
-.max-w-full {
-  max-width: 100%;
-}
-
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .origin-top-left {
