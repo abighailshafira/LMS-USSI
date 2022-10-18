@@ -25,29 +25,30 @@
       </div>
     </header>
 
-    <!-- form -->
-    <section class="pb-24 pt-36">
+    <!-- login form -->
+    <section class="pt-36">
       <div class="container">
-        <div class="flex flex-wrap justify-center mx-auto rounded-lg shadow-xl bg-white overflow-hidden max-w-4xl">
-          <div class="w-full p-7 md:w-1/2 md:p-10">
+        <div class="flex flex-wrap items-center justify-center mx-auto rounded-lg shadow-xl bg-white overflow-hidden max-w-4xl">
+          <div class="w-full md:w-1/2">
             <img src="../dist/img/login.png" class="w-full" alt="Phone image" />
           </div>
-          <div class="w-full md:w-1/2">
-            <form class="p-10">
-              <!-- Email input -->
-              <div class="mb-6">
+
+          <div class="w-full md:w-1/2 p-10">
+            <form>
+              <div class="form-group mb-4">
+                <label for="email" class="text-base">Email</label>
                 <input
-                  type="text"
-                  class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-cyan-500 focus:outline-none"
-                  placeholder="Email address"
+                  type="email"
+                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-md transition ease-in-out m-0 focus:outline-none focus:ring-cyan-500 focus:ring-1 focus:border-cyan-500"
+                  placeholder="Email"
                 />
               </div>
 
-              <!-- Password input -->
-              <div class="mb-6">
+              <div class="form-group mb-4">
+                <label for="password" class="text-base">Password</label>
                 <input
                   type="password"
-                  class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-slate-500 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-cyan-500 focus:outline-none"
+                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-md transition ease-in-out m-0 focus:outline-none focus:ring-cyan-500 focus:ring-1 focus:border-cyan-500"
                   placeholder="Password"
                 />
               </div>
@@ -56,36 +57,25 @@
                 <div class="form-group form-check">
                   <input
                     type="checkbox"
-                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-cyan-600 checked:border-cyan-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-cyan-600 checked:border-cyan-500 focus:outline-none transition duration-200 mt-1 align-top float-left mr-2 cursor-pointer"
                     id="exampleCheck3"
                     checked
                   />
-                  <label class="form-check-label inline-block text-gray-800" for="exampleCheck2">Remember me</label>
+                  <label class="form-check-label inline-block text-slate-500" for="exampleCheck2">Remember me</label>
                 </div>
                 <a href="#!" class="text-cyan-500 hover:text-cyan-600 focus:text-cyan-700 active:text-cyan-600 duration-200 transition ease-in-out">Forgot password?</a>
               </div>
 
-              <!-- Submit button -->
               <button
                 type="submit"
                 class="inline-block px-7 py-3 bg-cyan-500 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-cyan-800 hover:shadow-lg focus:bg-cyan-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-cyan-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
               >
-                Sign in
+                Login
               </button>
 
-              <p class="mt-3">Belum punya akun? <a class="text-cyan-600" href="register.html">register disini</a></p>
-
-              <!--   
-            <a
-              class="px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3"
-              style="background-color: #3b5998"
-              href="#!"
-              role="button"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-            > -->
+              <p class="mt-3 text-slate-500">Belum punya akun? <a href="register.html" class="text-cyan-500">Register disini</a></p>
             </form>
           </div>
         </div>
@@ -100,7 +90,7 @@
         d="M0,192L34.3,202.7C68.6,213,137,235,206,229.3C274.3,224,343,192,411,192C480,192,549,224,617,250.7C685.7,277,754,299,823,298.7C891.4,299,960,277,1029,245.3C1097.1,213,1166,171,1234,160C1302.9,149,1371,171,1406,181.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
       ></path>
     </svg>
-    <footer class="bg-slate-800 mt-96">
+    <footer class="bg-slate-800">
       <div class="container text-white text-center md:text-left">
         <div class="flex flex-wrap justify-center pt-10">
           <div class="w-full mb-6 md:w-1/2 lg:w-1/4">
